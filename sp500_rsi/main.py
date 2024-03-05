@@ -2,7 +2,7 @@ from AlgorithmImports import *
 
 class SP500RSIStrategyWithUniverseAndRiskManagement(QCAlgorithm):
     def Initialize(self):
-        self.SetStartDate(1998, 1, 1)  # Start date
+        self.SetStartDate(2016, 1, 1)  # Start date
         self.SetEndDate(2024, 3, 1)    # End date
         self.SetCash(100000)           # Initial capital
 
