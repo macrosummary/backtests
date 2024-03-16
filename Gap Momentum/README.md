@@ -14,7 +14,6 @@ This strategy is inspired by both J. Welles Wilder and Joseph Granville's OBV, e
 ## Installation
 
 1. **Clone the Repository**: Clone this repository to your local machine or QuantConnect research environment.
-`git clone https://github.com/your-username/gap-momentum-system.git`
 
 2. **QuantConnect Setup**: Ensure you have a QuantConnect account and have set up the Lean Engine if you plan to run this backtest locally.
 
@@ -22,7 +21,7 @@ This strategy is inspired by both J. Welles Wilder and Joseph Granville's OBV, e
 
 ### QuantConnect Cloud
 
-1. Upload the `GapMomentumSystem.py` to your QuantConnect account.
+1. Upload the `main.py` to your QuantConnect account.
 2. Create a new project and add the uploaded algorithm file.
 3. Set the backtest period and cash amount according to your preference.
 4. Run the backtest and analyze the results.
@@ -31,7 +30,7 @@ This strategy is inspired by both J. Welles Wilder and Joseph Granville's OBV, e
 
 If you have the Lean Engine set up locally:
 
-1. Place `GapMomentumSystem.py` in the Lean `Algorithm.Python` directory.
+1. Place `main.py` in the Lean `Algorithm.Python` directory.
 2. Configure your backtest in the `backtest.json` file.
 3. Run the following command:
 `lean backtest "GapMomentumSystem"`
@@ -40,7 +39,7 @@ If you have the Lean Engine set up locally:
 
 ## Configuration
 
-The strategy parameters such as gap period and signal line period can be adjusted in the `GapMomentumSystem.py` file. These input parameters are crucial for tuning the strategy to different markets or conditions.
+The strategy parameters such as gap period and signal line period can be adjusted in the `main.py` file. These input parameters are crucial for tuning the strategy to different markets or conditions.
 
 ## Contributions
 
