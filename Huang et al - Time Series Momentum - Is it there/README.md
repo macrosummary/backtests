@@ -13,7 +13,7 @@ The QuantConnect backtest algorithm is a Python script designed to test the TSM 
 ## How to Run
 * Sign up for a QuantConnect account if you haven't already.
 * Navigate to the Algorithm Lab and create a new Python algorithm.
-* Copy the Python script from /backtest and paste it into the QuantConnect code editor.
+* Copy the Python script main.py and paste it into the QuantConnect code editor.
 * Adjust the symbols list in the script to include the assets you wish to test.
 * Click "Build" to compile the algorithm and then "Backtest" to run it over the specified period.
 
